@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CCaprice Viral Alert</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      cursor: url('gun_cursor.png'), auto;
+    }
+
+    .container {
+      position: relative;
+    }
+
+    img {
+      width: 100%;
+      max-width: 800px;
+      border: 5px solid red;
+    }
+
+    .link-overlay {
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+      background: red;
+      color: white;
+      padding: 10px 20px;
+      font-size: 20px;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      box-shadow: 0 0 20px red;
+      animation: pulse 1s infinite alternate;
+    }
+
+    @keyframes pulse {
+      from { box-shadow: 0 0 10px red; }
+      to { box-shadow: 0 0 25px red; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="poster.png" alt="CCaprice Viral Warning">
+    <a class="link-overlay" href="https://linktr.ee/ccapriice?utm_source=linktree_profile_share&ltsid=ae960ee5-b828-45df-9a12-6a2084b1770b" target="_blank">
+      Click to Contain the Spread
+    </a>
+  </div>
+</body>
+</html>
